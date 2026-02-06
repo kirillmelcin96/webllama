@@ -8,7 +8,7 @@ import 'highlight.js/styles/github-dark.css' // любой стиль
 
 const highlight = async () => {
   await nextTick()
-  document.querySelectorAll('pre code').forEach(block => {
+  document.querySelectorAll<HTMLElement>('pre code').forEach(block => {
     hljs.highlightElement(block)
   })
 }
