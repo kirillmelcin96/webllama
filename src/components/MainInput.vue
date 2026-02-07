@@ -34,7 +34,7 @@ onMounted(resize)
             class="textarea"
             rows="1"
             @input="resize"
-            @keyup.ctrl.enter="clearInputAndSend"
+            @keyup.enter="clearInputAndSend"
             placeholder="Type something..."
         ></textarea>
         <div 
