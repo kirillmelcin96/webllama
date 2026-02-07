@@ -32,14 +32,8 @@ function deleteChat(id: number) {
 
 <template>
     <div class="chats-bar">
+        <div>
         <h3 class="title">webllama</h3>
-        <input
-            v-model="chatInstanceUrl"
-            class="chat-instance-input" 
-            type="text" 
-            autocomplete="off" 
-            @focusout="changeChatInstanceUrl"
-        />
         <div 
             class="chats-bar-button"
             @click="newChat"
@@ -61,12 +55,27 @@ function deleteChat(id: number) {
                 <CloseIcon />
             </div>
         </div>
+        </div>
+        <input
+            v-model="chatInstanceUrl"
+            class="chat-instance-input" 
+            type="text" 
+            autocomplete="off" 
+            @focusout="changeChatInstanceUrl"
+        />
     </div>
 </template>
 
 <style lang="scss" scoped>
 .chats-bar {
     padding: 16px 12px;
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .chats-bar {
+        display: none;
+    }
 }
 
 .title {
@@ -150,7 +159,9 @@ function deleteChat(id: number) {
 }
 
 .chat-instance-input {
-    width: 100%;
+    width: 234px;
+    position: fixed;
+    bottom: 16px;
     border: 1px solid #454545;
     background-color: transparent;
     font-size: 15px;
