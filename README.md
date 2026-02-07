@@ -1,6 +1,8 @@
 # Webllama
 **Webllama** - is a selfhosted offline AI platform providing access to ollama models using API. Written in Vue.js
 
+![Demo image](https://github.com/kirillmelcin96/webllama/blob/main/demo.png)
+
 ## Key features
 
 - 🚀 **Simple installation**: Just clone the repo and run webllama in your browser! No docker required
