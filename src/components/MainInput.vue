@@ -62,6 +62,7 @@ onMounted(resize)
     textarea {
         resize: none;
         width: calc(100% - 28px);
+        max-height: 350px;
         outline: none;
         border: none;
         background-color: transparent;
