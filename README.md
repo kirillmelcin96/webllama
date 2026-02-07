@@ -1,5 +1,52 @@
-# Vue 3 + TypeScript + Vite
+# Webllama
+**Webllama** - is a selfhosted offline AI platform providing access to ollama models using API. Written in Vue.js
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Key features
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+- 🚀 **Simple installation**: Just clone the repo and run webllama in your browser! No docker required
+
+- ✈︎ **Working offline**
+
+- ⚙️ **Auto-detect of ollama models**: If you already have a running ollama instance you are ready to go!
+
+- 💬 **Chat history**: Chats are stored directly in your browser
+
+- 📄 **Markdown and code support**
+
+## Installation 
+
+1. Clone the repository
+``` bash
+git clone https://github.com/kirillmelcin96/webllama.git
+```
+
+2. Install dependencies
+``` bash
+npm install
+
+# or if you prefer pnpm
+pnpm install
+```
+
+3. Run build command
+
+``` bash
+npm run build
+
+# or
+pnpm build
+```
+Files will be available from the `/dist` directory
+
+4. Open `/dist/index.html` file using your browser and that's it!
+
+## Features to be added
+
+- Search in chats
+- Mobile version of the chat history
+- Text-to-speech button
+- Attaching files
+- More themes
+- System prompts and personal settings
+- Temporary chats
+
