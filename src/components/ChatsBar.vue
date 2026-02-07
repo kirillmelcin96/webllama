@@ -99,7 +99,7 @@ function deleteChat(id: number) {
     border-radius: 12px;
     font-size: 15px;
     // font-weight: 500;
-    background-color: #1a1a1a;
+    background-color: #0e0e0e;
     max-width: 100%;
     overflow: hidden;
     white-space: nowrap;

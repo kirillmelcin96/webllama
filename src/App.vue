@@ -27,7 +27,7 @@ import MessageList from './components/MessageList.vue';
   justify-content: center;
   max-height: 100dvh;
   overflow-y: auto;
-  background-color: #242424;
+  background-color: #181818;
   border-radius: 24px 0 0 24px;
 }
 
